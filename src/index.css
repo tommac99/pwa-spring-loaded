@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(20deg, rgb(237, 238, 252), rgb(245, 245, 255));
+  color: rgb(43, 43, 63);
+  font-family: 'Roboto', sans-serif;
+}
