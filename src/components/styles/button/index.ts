@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { RootColors, rootColorGradients } from '../colors';
+import { RootColors, rootColorGradients } from '../../colors';
 
 export const Button = styled.div<{ dark?: boolean }>`
   width: 200px;

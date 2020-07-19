@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const PageContainer = styled.div`
+  width: 100vw;
+  height: calc(100vh - 70px);
+  background: rgba(255, 255, 255, 0.2);
+`;
+
 export const Container = styled.div<{ left?: number; right?: number }>`
   width: 100%;
   padding-left: ${({ left }) => (left ? left : 20)}px;
