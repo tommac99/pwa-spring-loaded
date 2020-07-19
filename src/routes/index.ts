@@ -1,16 +1,20 @@
 import { RouteConfig } from 'react-router-config';
-import { Welcome } from '../containers/Welcome';
-import { SpringPlayground } from '../containers/SpringPlayground';
+import { Home } from '../containers/Home';
+import { Browse } from '../containers/Browse';
+import { ProductPage } from '../containers/ProductPage';
 
 export const routes: RouteConfig[] = [
-  // --- Welcome ---
   {
     path: '/',
-    component: Welcome,
+    component: Home,
     exact: true,
   },
   {
-    path: '/spring-playground',
-    component: SpringPlayground,
+    path: '/Browse',
+    component: Browse,
+  },
+  {
+    path: '/ProductPage',
+    component: ProductPage,
   },
 ];

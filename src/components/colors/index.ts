@@ -1,12 +1,16 @@
 export enum RootColors {
-  light = 'rgb(237, 238, 252)',
-  dark = 'rgb(43, 43, 63)',
+  background = 'rgba(34, 40, 49,1)',
+  backgroundDark = 'rgba(30, 36, 44,1)',
+  blueDark = 'rgba(45,64,89,1)',
+  orange = 'rgba(255,87,34,1)',
+  white = 'rgba(238,238,238,1)',
+  whiteDark = 'rgba(230, 230, 230, 1)',
 }
 
-export enum RootColorGradients {
-  light = 'linear-gradient(20deg, rgb(237, 238, 252), rgb(245, 245, 255));',
-  dark = 'linear-gradient(20deg, rgb(43, 43, 63), rgb(50, 50, 71));',
-}
+export const rootColorGradients = {
+  light: `linear-gradient(20deg, ${RootColors.whiteDark}, ${RootColors.white}));`,
+  dark: `linear-gradient(20deg, ${RootColors.backgroundDark}, ${RootColors.background});`,
+};
 
 export enum Shadows {
   small = '',

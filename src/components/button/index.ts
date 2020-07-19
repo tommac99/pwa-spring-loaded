@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { RootColors, RootColorGradients } from '../colors';
+import { RootColors, rootColorGradients } from '../colors';
 
 export const Button = styled.div<{ dark?: boolean }>`
   width: 200px;
@@ -7,8 +7,8 @@ export const Button = styled.div<{ dark?: boolean }>`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${RootColorGradients.dark};
-  color: ${RootColors.light};
+  background: ${rootColorGradients.dark};
+  color: ${RootColors.blueDark};
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 5px 5px 20px rgba(43, 43, 63, 0.2);
